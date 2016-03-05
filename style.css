@@ -1,0 +1,156 @@
+.row {
+	text-align: center;
+}
+
+.carousel {
+	left: 50%;
+	position: absolute;
+	width: 1000px;
+	margin-left: -500px;
+	overflow: hidden;
+	height: 500px;
+	top: 50px;
+}
+
+.carousel .item {
+	width: 350px;
+	height: 250px;
+	/*	background: url('http://placehold.it/350x250') top left no-repeat;*/
+	background: red;
+	background-size: 100%;
+	vertical-align: middle;
+/*	line-height: 150px; */
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.carousel .love{
+    background: #008000;
+}
+
+.carousel .humour{
+    background: #ffffff;
+}
+
+.carousel .courage{
+    background: #805500;
+}
+
+.carousel .sorrow{
+    background:  #d9d9d9;
+}
+
+.carousel .disgust{
+    background: #0000ff;
+}
+
+.carousel .wonder{
+    background: #ffff00;
+}
+
+.carousel .anger{
+    background: #ff0000;
+}
+
+.carousel .horror{
+    background: #000000;
+}
+
+
+
+.controls {
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	width: 150px;
+	margin-left: -75px;
+}
+
+.controls a {
+	display: block;
+}
+
+.controls .previous {
+	float: left;
+}
+
+.controls .next {
+	float: right;
+}
+
+
+.youtube-container { display: block; margin: 20px auto; width: 100%; max-width: 600px; }
+.youtube-player { display: block; width: 100%; /* assuming that the video has a 16:9 ratio */ padding-bottom: 56.25%; overflow: hidden; position: relative; width: 100%; height: 100%; cursor: hand; cursor: pointer; display: block; }
+img.youtube-thumb { bottom: 0; display: block; left: 0; margin: auto; max-width: 100%; width: 100%; position: absolute; right: 0; top: 0; height: auto }
+div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url("http://i.imgur.com/TxzC70f.png") no-repeat; }
+#youtube-iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+
+[tooltip]:before{
+    position: absolute;
+    content: attr(tooltip);
+    opacity: 0;
+    transition: all 0.15s ease;
+    padding: 10px;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px silver;
+}
+
+[tooltip]:hover:before{
+    opacity: 1;
+
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.love [tooltip]:hover:before{
+    background: #008000;
+}
+
+
+.humour [tooltip]:hover:before{
+    background: #ffffff;
+}
+
+.courage [tooltip]:hover:before{
+    background: #805500;
+}
+
+.sorrow [tooltip]:hover:before{
+    background: #d9d9d9;
+}
+
+.disgust [tooltip]:hover:before{
+    background: #0000ff;
+    color: #FFFFFF;
+}
+
+.wonder [tooltip]:hover:before{
+    background: #ffff00;
+}
+
+.anger [tooltip]:hover:before{
+    background: #ff0000;
+}
+
+.horror [tooltip]:hover:before{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+#wonder,
+#disgust{
+    padding: 10px 0px 0px 10px;
+}
+
+#courage{
+    padding: 0px 10px 0px 10px;
+}
+
+

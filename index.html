@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Using multiple file formats in JavaScript</title>
+    <!-- Uncomment the following meta tag if you have issues rendering this page on an intranet site. -->
+    <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> -->
+
+    <link rel="stylesheet" type="text/css" href="carousel/jquery.circular-carousel.css">
+
+
+
+  </head>
+
+  <body>
+
+    <div class="row">
+      <ul class="carousel">
+
+	<li id="disgust" class="item disgust">
+	  <div tooltip="disgust">
+	    <img data-gifffer="eastwood_disgusted.gif" data-gifffer-width="330" data-gifffer-height="230" />
+	  </div>
+	</li>
+	
+	<li id="courage" class="item active courage" alt="courage">
+	  <div class="youtube-container">
+	    <div tooltip="courage">
+	      <div class="youtube-player" data-id="b3-LJMV1b6w"></div>
+	    </div>
+	  </div>
+	</li>
+
+	<li class="item active love">
+	  <div tooltip="love">
+	    Love
+	  </div>
+	</li>
+
+	<li class="item humour">
+	  <div tooltip="humour">
+	    Humour
+	  </div>
+	</li>
+
+
+	<li id="sorrow" class="item sorrow">
+	  <div id="sorrow">
+	    Sorrow
+	    </div>
+	</li>
+
+	<li id="wonder" class="item wonder">
+	  <div id="wonder">
+	    <div tooltip="wonder">
+	      <img data-gifffer="chubby_unicorn.gif" data-gifffer-width="330"; data-gifffer-height="230"/>
+	    </div>
+	  </div>
+	</li>
+	<li id="anger" class="item anger">
+	  <div id="anger">
+	    Anger
+	  </div>
+	</li>
+	<li id="horror" class="item horror"><div id="horror">Horror
+	    <div tooltip="horror">
+	      <iframe width="330" height="230" src="https://www.youtube.com/embed/Z3Dxji8rjs4" id="anger" frameborder="0" allowfullscreen></iframe>
+	      </div>
+	    </div>
+	</li>
+      </ul>
+
+    </div>
+
+    <div class="controls">
+      <a href="#" class="previous">Previous</a>
+      <a href="#" class="next">Next</a>
+    </div>
+
+    
+    <script type="text/javascript" src="jquery-1.12.1.js"></script>
+    <script type="text/javascript" src="carousel/jquery.circular-carousel.js"></script>
+    <script type="text/javascript" src="gifffer/build/gifffer.min.js"></script>
+
+
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </body>
+</html>
