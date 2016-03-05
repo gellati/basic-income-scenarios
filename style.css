@@ -35,7 +35,7 @@
     background: #805500;
 }
 
-.carousel .sorrow{
+.carousel .sadness{
     background:  #d9d9d9;
 }
 
@@ -115,8 +115,9 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
     background: #805500;
 }
 
-.sorrow [tooltip]:hover:before{
+.sadness [tooltip]:hover:before{
     background: #d9d9d9;
+    color: #000000;
 }
 
 .disgust [tooltip]:hover:before{
@@ -138,12 +139,6 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
 }
 
 
-
-
-
-
-
-
 #wonder,
 #disgust{
     padding: 10px 0px 0px 10px;
@@ -153,4 +148,30 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
     padding: 0px 10px 0px 10px;
 }
 
+#quoteContainer{
+	position: absolute;
+	top: 600px;
+	left: 40%;
+	width: 525px;
+	margin-left: -75px;
+	padding: 30px;
+	border: 1px solid black;
+
+    height: 200px;
+    position: relative;
+    float: left;
+    background-color: green;
+}
+
+
+#emotionContainer{
+    position: absolute;
+    top: 800px;
+    left: 45%;
+    width: 200px;
+    padding: 30px;
+    height: 40px;
+    float:left;
+    font-size: 30px;
+}
 
