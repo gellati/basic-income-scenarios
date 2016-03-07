@@ -146,6 +146,11 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
     color: #FFFFFF;
 }
 
+.compassion [tooltip]:hover:before{
+    background: #ff9900;
+}
+
+
 
 #wonder,
 #disgust{
