@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <div class="container">
 
     <div class="row">
       <ul class="carousel">
@@ -35,13 +36,19 @@
 
 	<li class="item active love">
 	  <div tooltip="love">
-	      <img data-gifffer="images/love.gif" data-gifffer-width="330"; data-gifffer-height="230"/>	    
+	      <img data-gifffer="images/love.gif" data-gifffer-width="330" data-gifffer-height="230"/>	    
+	  </div>
+	</li>
+
+	<li class="item compassion">
+	  <div tooltip="compassion">
+	    <img data-gifffer="images/compassion.gif" data-gifffer-width="330" data-gifffer-height="230"/>
 	  </div>
 	</li>
 
 	<li class="item humour">
 	  <div tooltip="humour">
-	   	      <img data-gifffer="images/laughing.gif" data-gifffer-width="330"; data-gifffer-height="230"/>
+	   	      <img data-gifffer="images/laughing.gif" data-gifffer-width="330" data-gifffer-height="230"/>
 	  </div>
 	</li>
 
@@ -49,7 +56,7 @@
 	<li id="sadness" class="item sadness">
 	  <div id="sadness">
 	    <div tooltip="sadness">
-	      <img data-gifffer="images/sadness.gif" data-gifffer-width="330"; data-gifffer-height="230"/>
+	      <img data-gifffer="images/sadness.gif" data-gifffer-width="330" data-gifffer-height="230"/>
 	    </div>
 	  </div>	  
 	</li>
@@ -57,7 +64,7 @@
 	<li id="wonder" class="item wonder">
 	  <div id="wonder">
 	    <div tooltip="wonder">
-	      <img data-gifffer="images/chubby_unicorn.gif" data-gifffer-width="330"; data-gifffer-height="230"/>
+	      <img data-gifffer="images/chubby_unicorn.gif" data-gifffer-width="330" data-gifffer-height="230"/>
 	    </div>
 	  </div>
 	</li>
@@ -84,11 +91,12 @@
     </div>
 
 
-    <div id="quoteContainer">
-
-    </div>
+    <div id="textContainer">
+    <div id="quoteContainer"></div>
+    <div id="scenarioContainer"></div>
     <div id="emotionContainer"></div>
-
+    </div>
+</container>
     <div id="attributions">A project by Ranjit Menon, Jonne Pitkänen, Erica Scott and Omar El-Begawy, made for the <a href="http://www.perustulohack.fi">Basic Income Hackathon 2016</a> Here is <a href="http://www.perustulohack.fi/moodhack">more materials</a>.</div>
 
     
