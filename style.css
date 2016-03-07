@@ -142,7 +142,7 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
 }
 
 .horror [tooltip]:hover:before{
-    background: #ff9900;
+    background: #00000;
     color: #FFFFFF;
 }
 
