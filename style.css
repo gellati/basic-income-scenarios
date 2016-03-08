@@ -176,6 +176,7 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
     font-style: italic;
 		 height: 100px; 
     position: absolute;
+    border: 1px solid black;
 }
 
 .quote{
@@ -188,12 +189,16 @@ div.play-button { height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -
 	height: 100px;
     position: absolute;
     top: 80px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 #emotionContainer{
     position: absolute; top: -40px; width: 200px;
     padding: 30px; height: 40px; left: 70%;
     font-size: 30px;
+    border: 1px solid black;
 }
 
 #attributions{
