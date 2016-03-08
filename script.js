@@ -2,13 +2,9 @@
     var currentIndex = 0;
 
     var feelingData = [
-	{feeling: "disgust",
-	 quote: "I'm strongly against an unconditional basic income.",
-	 scenario: "If a basic income becomes a reality far too many people will take advantage of the situation and just lay on the sofa or travel around the world without working and contributing to society. What motivates people is that one can see that work pays off. If everyone will get a basic income without having to do anything people will get lazy.",
-	 backgroundColor: "#0000FF",
-	 backgroundColorLight: "#b3b3ff",
-	 color: "#FFFFFF"
-	},
+
+
+
 	{feeling: "courage",
 	 quote: "With a basic income I would dare to start a company which has been a dream for a long time.",
 	 scenario: "An unconditional basic income would encourage people to start new companys and organisations because they would feel economically more safe. It would also reward forms of work that is not labour - the work of care, community work, education for social involvement, and so on.",
@@ -16,6 +12,16 @@
 	 backgroundColorLight: "#ffdd99",
 	 color: "#FFFFFF"
 	},	
+
+	{feeling: "disgust",
+	 quote: "I'm strongly against an unconditional basic income.",
+	 scenario: "If a basic income becomes a reality far too many people will take advantage of the situation and just lay on the sofa or travel around the world without working and contributing to society. What motivates people is that one can see that work pays off. If everyone will get a basic income without having to do anything people will get lazy.",
+	 backgroundColor: "#0000FF",
+	 backgroundColorLight: "#b3b3ff",
+	 color: "#FFFFFF"
+	},
+
+
 	{feeling: "love",
 	 quote: "People who have a basic income security tend to act with a greater sense of altruism and tolerance",
 	 scenario: "With the introduction of an unconditional basic income we will see a society where people care more for eachother. People will have a better possibility to spend time with their loved ones, their children, older parents and family instead of feeling stress and working too much.",
